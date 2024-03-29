@@ -11,6 +11,11 @@ To add dependency packages, follow these steps:
 1. Run `npm install --legacy-peer-deps` in your terminal.
 2. To start the server, run `npm start`.
 
+## External Dependencies
+
+- Material UI
+- ag-Grid
+
 ## Overview of the Project Structure
 
 In this project, we use React's `useState` hook to manage tasks. We initialize it with tasks stored in local storage or an empty array if no tasks are stored.
