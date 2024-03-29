@@ -1,0 +1,30 @@
+@media (max-width: 480px) {
+    .taskManager .taskTitle {
+       padding: 5px 0px !important;
+       display: grid !important;
+     } 
+    .taskManager .MuiButton-contained {
+         margin: 5px auto;
+     }
+     .taskManager .MuiButton-label {
+         padding: 0px 6px 0px 1px;
+     }
+   }
+ /* Default styles */
+ .ag-theme-alpine {
+     width: 100%;
+     height: 400px;
+   }
+    
+   /* Responsive styles */
+   @media (max-width: 768px) {
+     .ag-theme-alpine {
+       height: 300px;
+     }
+   }
+   
+   @media (max-width: 576px) {
+     .ag-theme-alpine {
+       height: 200px;
+     }
+   }
